@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BD9E912AD92A89008FB0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD9E902AD92A89008FB0AE /* AppDelegate.m */; };
+		84BD9E942AD92A89008FB0AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD9E932AD92A89008FB0AE /* SceneDelegate.m */; };
+		84BD9E972AD92A89008FB0AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD9E962AD92A89008FB0AE /* ViewController.m */; };
+		84BD9E9A2AD92A89008FB0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9E982AD92A89008FB0AE /* Main.storyboard */; };
+		84BD9E9C2AD92A8A008FB0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9E9B2AD92A8A008FB0AE /* Assets.xcassets */; };
+		84BD9E9F2AD92A8A008FB0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9E9D2AD92A8A008FB0AE /* LaunchScreen.storyboard */; };
+		84BD9EA22AD92A8A008FB0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD9EA12AD92A8A008FB0AE /* main.m */; };
+		84BD9EAA2AD92AB2008FB0AE /* XRWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD9EA92AD92AB2008FB0AE /* XRWaterfallLayout.m */; };
+		84BD9EAD2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84BD9EAC2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.mm */; };
+		84BD9EC12AD93CFB008FB0AE /* BizarreAnime_1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EAF2AD93CFA008FB0AE /* BizarreAnime_1.pag */; };
+		84BD9EC22AD93CFB008FB0AE /* BizarreAnime_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB02AD93CFA008FB0AE /* BizarreAnime_2.pag */; };
+		84BD9EC32AD93CFB008FB0AE /* BizarreAnime_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB12AD93CFB008FB0AE /* BizarreAnime_3.pag */; };
+		84BD9EC42AD93CFB008FB0AE /* LovelySailor_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB22AD93CFB008FB0AE /* LovelySailor_3.pag */; };
+		84BD9EC52AD93CFB008FB0AE /* MaidenDress_1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB32AD93CFB008FB0AE /* MaidenDress_1.pag */; };
+		84BD9EC62AD93CFB008FB0AE /* NostalgiaArt_1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB42AD93CFB008FB0AE /* NostalgiaArt_1.pag */; };
+		84BD9EC72AD93CFB008FB0AE /* LovelySailor_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB52AD93CFB008FB0AE /* LovelySailor_2.pag */; };
+		84BD9EC82AD93CFB008FB0AE /* NostalgiaArt_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB62AD93CFB008FB0AE /* NostalgiaArt_3.pag */; };
+		84BD9EC92AD93CFB008FB0AE /* MaidenDress_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB72AD93CFB008FB0AE /* MaidenDress_3.pag */; };
+		84BD9ECA2AD93CFB008FB0AE /* StarryTales_1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB82AD93CFB008FB0AE /* StarryTales_1.pag */; };
+		84BD9ECB2AD93CFB008FB0AE /* GothicAnime_1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EB92AD93CFB008FB0AE /* GothicAnime_1.pag */; };
+		84BD9ECC2AD93CFB008FB0AE /* StarryTales_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EBA2AD93CFB008FB0AE /* StarryTales_2.pag */; };
+		84BD9ECD2AD93CFB008FB0AE /* LovelySailor_1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EBB2AD93CFB008FB0AE /* LovelySailor_1.pag */; };
+		84BD9ECE2AD93CFB008FB0AE /* GothicAnime_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EBC2AD93CFB008FB0AE /* GothicAnime_3.pag */; };
+		84BD9ECF2AD93CFB008FB0AE /* GothicAnime_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EBD2AD93CFB008FB0AE /* GothicAnime_2.pag */; };
+		84BD9ED02AD93CFB008FB0AE /* StarryTales_3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EBE2AD93CFB008FB0AE /* StarryTales_3.pag */; };
+		84BD9ED12AD93CFB008FB0AE /* NostalgiaArt_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EBF2AD93CFB008FB0AE /* NostalgiaArt_2.pag */; };
+		84BD9ED22AD93CFB008FB0AE /* MaidenDress_2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9EC02AD93CFB008FB0AE /* MaidenDress_2.pag */; };
+		84BD9ED42AD93E43008FB0AE /* aigc_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 84BD9ED32AD93E43008FB0AE /* aigc_config.json */; };
+		87CD5408DC955E9BFF731CEF /* Pods_pagDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CFE47ED9998ECF20305E35 /* Pods_pagDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07CFE47ED9998ECF20305E35 /* Pods_pagDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pagDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C09ABCF443DC9D7AA68D90 /* Pods-pagDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pagDemo.release.xcconfig"; path = "Target Support Files/Pods-pagDemo/Pods-pagDemo.release.xcconfig"; sourceTree = "<group>"; };
+		84BD9E8C2AD92A89008FB0AE /* pagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BD9E8F2AD92A89008FB0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BD9E902AD92A89008FB0AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BD9E922AD92A89008FB0AE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84BD9E932AD92A89008FB0AE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84BD9E952AD92A89008FB0AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84BD9E962AD92A89008FB0AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84BD9E992AD92A89008FB0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BD9E9B2AD92A8A008FB0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BD9E9E2AD92A8A008FB0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84BD9EA02AD92A8A008FB0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BD9EA12AD92A8A008FB0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BD9EA82AD92AB2008FB0AE /* XRWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRWaterfallLayout.h; sourceTree = "<group>"; };
+		84BD9EA92AD92AB2008FB0AE /* XRWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRWaterfallLayout.m; sourceTree = "<group>"; };
+		84BD9EAB2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCAIGCItemCollectionViewCell.h; sourceTree = "<group>"; };
+		84BD9EAC2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YCAIGCItemCollectionViewCell.mm; sourceTree = "<group>"; };
+		84BD9EAF2AD93CFA008FB0AE /* BizarreAnime_1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = BizarreAnime_1.pag; sourceTree = "<group>"; };
+		84BD9EB02AD93CFA008FB0AE /* BizarreAnime_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = BizarreAnime_2.pag; sourceTree = "<group>"; };
+		84BD9EB12AD93CFB008FB0AE /* BizarreAnime_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = BizarreAnime_3.pag; sourceTree = "<group>"; };
+		84BD9EB22AD93CFB008FB0AE /* LovelySailor_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = LovelySailor_3.pag; sourceTree = "<group>"; };
+		84BD9EB32AD93CFB008FB0AE /* MaidenDress_1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaidenDress_1.pag; sourceTree = "<group>"; };
+		84BD9EB42AD93CFB008FB0AE /* NostalgiaArt_1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = NostalgiaArt_1.pag; sourceTree = "<group>"; };
+		84BD9EB52AD93CFB008FB0AE /* LovelySailor_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = LovelySailor_2.pag; sourceTree = "<group>"; };
+		84BD9EB62AD93CFB008FB0AE /* NostalgiaArt_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = NostalgiaArt_3.pag; sourceTree = "<group>"; };
+		84BD9EB72AD93CFB008FB0AE /* MaidenDress_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaidenDress_3.pag; sourceTree = "<group>"; };
+		84BD9EB82AD93CFB008FB0AE /* StarryTales_1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = StarryTales_1.pag; sourceTree = "<group>"; };
+		84BD9EB92AD93CFB008FB0AE /* GothicAnime_1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothicAnime_1.pag; sourceTree = "<group>"; };
+		84BD9EBA2AD93CFB008FB0AE /* StarryTales_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = StarryTales_2.pag; sourceTree = "<group>"; };
+		84BD9EBB2AD93CFB008FB0AE /* LovelySailor_1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = LovelySailor_1.pag; sourceTree = "<group>"; };
+		84BD9EBC2AD93CFB008FB0AE /* GothicAnime_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothicAnime_3.pag; sourceTree = "<group>"; };
+		84BD9EBD2AD93CFB008FB0AE /* GothicAnime_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothicAnime_2.pag; sourceTree = "<group>"; };
+		84BD9EBE2AD93CFB008FB0AE /* StarryTales_3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = StarryTales_3.pag; sourceTree = "<group>"; };
+		84BD9EBF2AD93CFB008FB0AE /* NostalgiaArt_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = NostalgiaArt_2.pag; sourceTree = "<group>"; };
+		84BD9EC02AD93CFB008FB0AE /* MaidenDress_2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaidenDress_2.pag; sourceTree = "<group>"; };
+		84BD9ED32AD93E43008FB0AE /* aigc_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aigc_config.json; sourceTree = "<group>"; };
+		CBAEA9A9A86E794421619C5B /* Pods-pagDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pagDemo.debug.xcconfig"; path = "Target Support Files/Pods-pagDemo/Pods-pagDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BD9E892AD92A89008FB0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CD5408DC955E9BFF731CEF /* Pods_pagDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F3B50F2771007D6077EE3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBAEA9A9A86E794421619C5B /* Pods-pagDemo.debug.xcconfig */,
+				74C09ABCF443DC9D7AA68D90 /* Pods-pagDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		806E07B3F74519F903121269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07CFE47ED9998ECF20305E35 /* Pods_pagDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84BD9E832AD92A89008FB0AE = {
+			isa = PBXGroup;
+			children = (
+				84BD9E8E2AD92A89008FB0AE /* pagDemo */,
+				84BD9E8D2AD92A89008FB0AE /* Products */,
+				75F3B50F2771007D6077EE3C /* Pods */,
+				806E07B3F74519F903121269 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84BD9E8D2AD92A89008FB0AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BD9E8C2AD92A89008FB0AE /* pagDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BD9E8E2AD92A89008FB0AE /* pagDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84BD9E8F2AD92A89008FB0AE /* AppDelegate.h */,
+				84BD9E902AD92A89008FB0AE /* AppDelegate.m */,
+				84BD9E922AD92A89008FB0AE /* SceneDelegate.h */,
+				84BD9E932AD92A89008FB0AE /* SceneDelegate.m */,
+				84BD9E952AD92A89008FB0AE /* ViewController.h */,
+				84BD9E962AD92A89008FB0AE /* ViewController.m */,
+				84BD9EAB2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.h */,
+				84BD9EAC2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.mm */,
+				84BD9EA82AD92AB2008FB0AE /* XRWaterfallLayout.h */,
+				84BD9EA92AD92AB2008FB0AE /* XRWaterfallLayout.m */,
+				84BD9EAE2AD93CD8008FB0AE /* Resource */,
+				84BD9E982AD92A89008FB0AE /* Main.storyboard */,
+				84BD9E9B2AD92A8A008FB0AE /* Assets.xcassets */,
+				84BD9E9D2AD92A8A008FB0AE /* LaunchScreen.storyboard */,
+				84BD9EA02AD92A8A008FB0AE /* Info.plist */,
+				84BD9EA12AD92A8A008FB0AE /* main.m */,
+			);
+			path = pagDemo;
+			sourceTree = "<group>";
+		};
+		84BD9EAE2AD93CD8008FB0AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84BD9ED32AD93E43008FB0AE /* aigc_config.json */,
+				84BD9EAF2AD93CFA008FB0AE /* BizarreAnime_1.pag */,
+				84BD9EB02AD93CFA008FB0AE /* BizarreAnime_2.pag */,
+				84BD9EB12AD93CFB008FB0AE /* BizarreAnime_3.pag */,
+				84BD9EB92AD93CFB008FB0AE /* GothicAnime_1.pag */,
+				84BD9EBD2AD93CFB008FB0AE /* GothicAnime_2.pag */,
+				84BD9EBC2AD93CFB008FB0AE /* GothicAnime_3.pag */,
+				84BD9EBB2AD93CFB008FB0AE /* LovelySailor_1.pag */,
+				84BD9EB52AD93CFB008FB0AE /* LovelySailor_2.pag */,
+				84BD9EB22AD93CFB008FB0AE /* LovelySailor_3.pag */,
+				84BD9EB32AD93CFB008FB0AE /* MaidenDress_1.pag */,
+				84BD9EC02AD93CFB008FB0AE /* MaidenDress_2.pag */,
+				84BD9EB72AD93CFB008FB0AE /* MaidenDress_3.pag */,
+				84BD9EB42AD93CFB008FB0AE /* NostalgiaArt_1.pag */,
+				84BD9EBF2AD93CFB008FB0AE /* NostalgiaArt_2.pag */,
+				84BD9EB62AD93CFB008FB0AE /* NostalgiaArt_3.pag */,
+				84BD9EB82AD93CFB008FB0AE /* StarryTales_1.pag */,
+				84BD9EBA2AD93CFB008FB0AE /* StarryTales_2.pag */,
+				84BD9EBE2AD93CFB008FB0AE /* StarryTales_3.pag */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BD9E8B2AD92A89008FB0AE /* pagDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BD9EA52AD92A8A008FB0AE /* Build configuration list for PBXNativeTarget "pagDemo" */;
+			buildPhases = (
+				3906BF1D0CC9AAD39E3470F2 /* [CP] Check Pods Manifest.lock */,
+				84BD9E882AD92A89008FB0AE /* Sources */,
+				84BD9E892AD92A89008FB0AE /* Frameworks */,
+				84BD9E8A2AD92A89008FB0AE /* Resources */,
+				3690E7864AC25C698CA7867F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pagDemo;
+			productName = pagDemo;
+			productReference = 84BD9E8C2AD92A89008FB0AE /* pagDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BD9E842AD92A89008FB0AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84BD9E8B2AD92A89008FB0AE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 84BD9E872AD92A89008FB0AE /* Build configuration list for PBXProject "pagDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BD9E832AD92A89008FB0AE;
+			productRefGroup = 84BD9E8D2AD92A89008FB0AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BD9E8B2AD92A89008FB0AE /* pagDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BD9E8A2AD92A89008FB0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BD9ECC2AD93CFB008FB0AE /* StarryTales_2.pag in Resources */,
+				84BD9EC72AD93CFB008FB0AE /* LovelySailor_2.pag in Resources */,
+				84BD9EC22AD93CFB008FB0AE /* BizarreAnime_2.pag in Resources */,
+				84BD9EC82AD93CFB008FB0AE /* NostalgiaArt_3.pag in Resources */,
+				84BD9ECE2AD93CFB008FB0AE /* GothicAnime_3.pag in Resources */,
+				84BD9ED02AD93CFB008FB0AE /* StarryTales_3.pag in Resources */,
+				84BD9ECA2AD93CFB008FB0AE /* StarryTales_1.pag in Resources */,
+				84BD9EC32AD93CFB008FB0AE /* BizarreAnime_3.pag in Resources */,
+				84BD9ED22AD93CFB008FB0AE /* MaidenDress_2.pag in Resources */,
+				84BD9ED42AD93E43008FB0AE /* aigc_config.json in Resources */,
+				84BD9EC42AD93CFB008FB0AE /* LovelySailor_3.pag in Resources */,
+				84BD9E9F2AD92A8A008FB0AE /* LaunchScreen.storyboard in Resources */,
+				84BD9ED12AD93CFB008FB0AE /* NostalgiaArt_2.pag in Resources */,
+				84BD9EC12AD93CFB008FB0AE /* BizarreAnime_1.pag in Resources */,
+				84BD9E9C2AD92A8A008FB0AE /* Assets.xcassets in Resources */,
+				84BD9EC92AD93CFB008FB0AE /* MaidenDress_3.pag in Resources */,
+				84BD9EC52AD93CFB008FB0AE /* MaidenDress_1.pag in Resources */,
+				84BD9EC62AD93CFB008FB0AE /* NostalgiaArt_1.pag in Resources */,
+				84BD9ECF2AD93CFB008FB0AE /* GothicAnime_2.pag in Resources */,
+				84BD9ECD2AD93CFB008FB0AE /* LovelySailor_1.pag in Resources */,
+				84BD9E9A2AD92A89008FB0AE /* Main.storyboard in Resources */,
+				84BD9ECB2AD93CFB008FB0AE /* GothicAnime_1.pag in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3690E7864AC25C698CA7867F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pagDemo/Pods-pagDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pagDemo/Pods-pagDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pagDemo/Pods-pagDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3906BF1D0CC9AAD39E3470F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pagDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BD9E882AD92A89008FB0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BD9E972AD92A89008FB0AE /* ViewController.m in Sources */,
+				84BD9EAD2AD93386008FB0AE /* YCAIGCItemCollectionViewCell.mm in Sources */,
+				84BD9E912AD92A89008FB0AE /* AppDelegate.m in Sources */,
+				84BD9EAA2AD92AB2008FB0AE /* XRWaterfallLayout.m in Sources */,
+				84BD9EA22AD92A8A008FB0AE /* main.m in Sources */,
+				84BD9E942AD92A89008FB0AE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84BD9E982AD92A89008FB0AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BD9E992AD92A89008FB0AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BD9E9D2AD92A8A008FB0AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BD9E9E2AD92A8A008FB0AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BD9EA32AD92A8A008FB0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BD9EA42AD92A8A008FB0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BD9EA62AD92A8A008FB0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAEA9A9A86E794421619C5B /* Pods-pagDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYJ637CA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pagDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owned.pagDemo.pagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BD9EA72AD92A8A008FB0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C09ABCF443DC9D7AA68D90 /* Pods-pagDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYJ637CA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pagDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owned.pagDemo.pagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BD9E872AD92A89008FB0AE /* Build configuration list for PBXProject "pagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BD9EA32AD92A8A008FB0AE /* Debug */,
+				84BD9EA42AD92A8A008FB0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BD9EA52AD92A8A008FB0AE /* Build configuration list for PBXNativeTarget "pagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BD9EA62AD92A8A008FB0AE /* Debug */,
+				84BD9EA72AD92A8A008FB0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BD9E842AD92A89008FB0AE /* Project object */;
+}
