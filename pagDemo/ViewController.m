@@ -69,6 +69,7 @@
     NSDictionary *item = self.items[indexPath.row];
     NSString *path = [[NSBundle mainBundle] pathForResource:item[@"cover"] ofType:nil];
     [cell.pagView setPath:path];
+    cell.label.text = item[@"cover"];
     return cell;
 }
 

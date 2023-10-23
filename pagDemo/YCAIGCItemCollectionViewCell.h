@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YCAIGCItemCollectionViewCell : UICollectionViewCell
 @property (nonatomic, strong) PAGView *pagView;
+@property (nonatomic, strong) UILabel *label;
 //@property (nonatomic, strong) PAGImageView *pagImageView;
 
 - (void)startAnimating;

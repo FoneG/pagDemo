@@ -24,6 +24,13 @@
         [self.pagView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(0);
         }];
+        
+        self.label = [[UILabel alloc] init];
+        self.label.textColor = UIColor.whiteColor;
+        [self.contentView addSubview:self.label];
+        [self.label mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.top.mas_equalTo(8);
+        }];
     }
     return self;
 }
